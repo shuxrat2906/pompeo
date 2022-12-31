@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:wght@400;700&family=Pacifico&family=Playfair+Display:ital@1&family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --lato: 'Lato', sans-serif;
+  --libre: 'Libre Franklin', sans-serif;
+  --pacifico: 'Pacifico', cursive;
+  --playfair: 'Playfair Display', serif;
+  --poppins: 'Poppins', sans-serif;
+}
+
+.line {
+  width: 1px;
+  height: 38px;
+  background: black;
+  display: flex;
+}
+
+.header__link {
+  font-family: var(--poppins);
+  font-size: 12px;
+  color: #6C6C6C;
+}
+
+.header__link_color-black {
+  color: black;
+}
+
+.font-size-68 {
+  font-size: 68px;
+}
+
+.font-size-43 {
+  font-size: 43px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.popins {
+  font-family: var(--poppins);
+}
+
+.libre {
+  font-family: var(--libre);
+}
+
+.lato {
+  font-family: var(--lato);
+}
+
+.pacifico {
+  font-family: var(--pacifico);
+}
+
+.playfair {
+  font-family: var(--playfair);
+}
+
+.murod {
+  height: 100vh;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ponpeo {
+  text-align: center;
+}
+
+.ponpe {
+  display: flex;
+  text-align: center;
+}
+
+.shuxrat12 {
+  height: 220px;
+  width: 550px;
+  background-image: url(../img/begraund.png);
+  padding-top: 200px;
+  background-repeat: no-repeat;
+  padding-top: 144px;
+  padding-bottom: 144px;
+}
+
+
+.quis {
+  padding-top: 200px;
+}
+
+.koza {
+  margin-left: 240px;
+}
+
+.line1 {
+  width: 371px;
+  height: 1px;
+  background: #DBDBDB;
+  display: flex;
+}
+
+.koza3 {
+  width: 195px;
+  height: 62px;
+  border-radius: 0px;
+  padding-top: 20px;
+}
+
+.koza4 {
+  margin-left: 520px;
+}
+
+.intro {
+  margin-top: 120px;
+  height: 470px;
+  background: url(../img/imgg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro1 {
+  padding: 20px;
+  padding-left: 122px;
+  padding-top: 200px;
+  display: flex;
+}
+
+.intro2 {
+  width: 195px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+}
+
+.intro3 {
+  color: #dc3545;
+  background: 0;
+}
+
+.intr {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.intro-footer {
+  border-radius: 0;
+  width: 470px;
+  height: 45px;
+}
+
+.intro4 {
+  width: 320px;
+  height: 45px;
+}
+
+
+
+
+
+.introd{
+
+  gap: 10px;
+}
+
+.intro8{
+  --bs-gutter-x: 0;
+}
+
+.qwerty{
+  margin-left: 541px;
+}
+
+.qwer{
+  margin-left:  10px;
+}
+
+.index{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
